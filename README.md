@@ -1,5 +1,3 @@
-# Real Estate
-
 ## Setup
 
 * Fork this Repository
