@@ -45,4 +45,8 @@ class HouseTest < Minitest::Test
     assert_equal 1900, @house.area
   end
 
+  def test_for_price_per_square_foot
+    assert_equal (210.53), @house.price_per_square_foot
+  end
+
 end

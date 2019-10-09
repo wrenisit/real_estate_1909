@@ -22,4 +22,9 @@ class House
     @specific_rooms
   end
 
+  def price_per_square_foot
+    foot_price = @price.delete("$").to_f
+    total = (foot_price / @area).round(2)
+    total
+  end
 end
