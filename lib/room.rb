@@ -4,7 +4,7 @@ attr_reader :category, :length, :width, :area
     @category = category
     @length = length
     @width = width
-    @area = @length * @width
+    @area = (@length * @width)
   end
 
 end
